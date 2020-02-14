@@ -36,10 +36,15 @@ After install you need to run command yarn start to start the project.
 
 #### 1. API
 In this project i've used my "Nodejs Submit API" and this is how the api look.
+
 ![submit-post5](https://user-images.githubusercontent.com/33189395/74528182-2be06a80-4f5a-11ea-9f2f-f3ba30efec5f.jpg)
 
 This is the api for add new post.
+
 ![submit-post6](https://user-images.githubusercontent.com/33189395/74528344-a8734900-4f5a-11ea-97d2-2cd4703ebad7.jpg)
 
 This is the api for upload image to server.
+
 ![submit-post7](https://user-images.githubusercontent.com/33189395/74528483-c3de5400-4f5a-11ea-896d-ccb8cee6d4c4.jpg)
+
+#### 2. First i used iron-form components to build this form.
