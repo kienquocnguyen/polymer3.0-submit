@@ -13,6 +13,6 @@ https://github.com/kienquocnguyen/nodejs-submitapi
 
 ### Install
 
-After you clone "Polymer Fetch Api Example" as an demo you need to install it with yarn
+After you clone "Polymer 3.0 Submit Form Example" as an demo you need to install it with yarn
 
     yarn install
