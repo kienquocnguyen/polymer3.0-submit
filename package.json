@@ -29,7 +29,8 @@
     "@webcomponents/webcomponentsjs": "^2.0.0",
     "fa-icons": "^0.1.9",
     "font-awesome-icons": "^1.6.0",
-    "fontawesome-icon": "^1.0.4"
+    "fontawesome-icon": "^1.0.4",
+    "growl": "^1.10.5"
   },
   "devDependencies": {
     "polymer-cli": "^1.7.1",
