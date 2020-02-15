@@ -47,4 +47,43 @@ This is the api for upload image to server.
 
 ![submit-post7](https://user-images.githubusercontent.com/33189395/74528483-c3de5400-4f5a-11ea-896d-ccb8cee6d4c4.jpg)
 
+
 #### 2. First i used iron-form components to build this form.
+You can learn more about iron-form components in here:
+https://www.webcomponents.org/element/@polymer/iron-form
+
+iron-form in my project
+![submit-post8](https://user-images.githubusercontent.com/33189395/74582290-a78af780-4fec-11ea-9088-db05670616ac.jpg)
+
+To use iron-form I have to create a normal form inside of it to set the api and method.
+![submit-post9](https://user-images.githubusercontent.com/33189395/74582722-d8b9f680-4ff1-11ea-9350-9af3fc614b6d.jpg)
+
+First I created two paper-input for post_author and post_categories
+![submit-post10](https://user-images.githubusercontent.com/33189395/74582762-7d3c3880-4ff2-11ea-82f3-1e05635f009d.jpg)
+
+Then I used vaadin-upload to upload images to the server.
+You can learn more about vaadin-upload in here:
+https://www.webcomponents.org/element/vaadin/vaadin-upload
+
+However to submit images name to the database, I have to create another paper-input inside vaadin-upload to get images name.
+![submit-post11](https://user-images.githubusercontent.com/33189395/74582804-1cf9c680-4ff3-11ea-8493-43f55cd59ae4.jpg)
+
+Then I created two more paper-input for post_date and post_title
+![submit-post12](https://user-images.githubusercontent.com/33189395/74582871-c04adb80-4ff3-11ea-9c13-0399560e87cd.jpg)
+
+Then I used poly-richtex components (This is a richtext components that I created by my own).
+![submit-post13](https://user-images.githubusercontent.com/33189395/74582931-83cbaf80-4ff4-11ea-8a13-c1fc8c44b646.jpg)
+
+Here is the link if you want to use it for your own app.
+http://www.mediafire.com/file/mf6s8loz4gorktd/poly-richtext.zip
+
+And here is what you need to install before you use this components
+
+    npm install --save @polymer/paper-input
+    npm install --save @polymer/paper-button
+    npm install --save @polymer/iron-form
+    npm i @vaadin/vaadin-upload --save
+    npm install fontawesome-icon
+    npm i fa-icons
+
+
